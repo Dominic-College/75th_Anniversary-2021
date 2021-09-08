@@ -1,0 +1,40 @@
+body {
+	background-color: red;
+}
+
+h1 {
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+
+p {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: left;
+}
+
+.ribbon { 
+	Width: 100%;
+}
+
+	p { 
+	color: white;
+	background-color: #1e345d;
+	margin: 0 auto;
+		font-family: Adobe Garamond Pro,;
+		padding-right: 700px;
+	
+		}
+		
+		body {
+			color: white;
+	background-color: #1e345d;
+	margin: 0 auto;
+		font-family: Adobe Garamond Pro,;
+		}
+
+p1 {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  color: white;
+}
