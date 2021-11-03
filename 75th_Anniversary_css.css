@@ -1,40 +1,120 @@
+@charset "utf-8";
+@import url(https://use.typekit.net/efj7gzu.css);
+/* CSS Document */
 body {
-	background-color: red;
+    background-color: #1e345d;
+    margin: 0px;
 }
-
-h1 {
-	text-align: center;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-}
-
-
+ 
 p {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	text-align: left;
+    font-family: "Calibri Light", Verdana, sans-serif;
+    color: white;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.2em;
+	text-align: justify;
 }
-
-.ribbon { 
-	Width: 100%;
+ 
+.heading {
+    font-family: trajan-pro-3, serif;
+    font-weight: 600;
+    font-style: normal; 
+    color: white;
+    font-size: 2em;
+    text-shadow: 3px 3px 8px #000000;
 }
-
-	p { 
-	color: white;
-	background-color: #1e345d;
-	margin: 0 auto;
-		font-family: Adobe Garamond Pro,;
-		padding-right: 700px;
-	
-		}
-		
-		body {
-			color: white;
-	background-color: #1e345d;
-	margin: 0 auto;
-		font-family: Adobe Garamond Pro,;
-		}
-
-p1 {
-  font-family: Georgia, serif;
-  font-size: 15px;
-  color: white;
+ 
+.splash-frame {
+    display: block;
+    margin-top: 110px;
+    width: 100%;
+    height: calc(100VH - 110px);
+}
+ 
+iframe {
+    border: none;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,1);
+}
+ 
+.splash-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.splash-article {
+    display: block;
+    content: "";
+    clear: none;
+    margin: 20px;
+}
+ 
+.splash-article h1 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+ 
+.content-left {
+    float: left;
+    padding-top: 25px;
+    padding-right: 40px;
+}
+ 
+.text-content {
+    display: flow-root;
+    min-width: 100px;
+    text-align: center;
+}
+ 
+.content-right {
+    float: right;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+ 
+.quote {
+    font-family: 'Patrick Hand', cursive;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: #89a9e2;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px #000000;
+}
+ 
+.article-content {
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    text-align: center;
+    border-top: 5px ridge #857345;
+}
+ 
+.article-content h1 {
+    margin-bottom: 5px;
+}
+ 
+ 
+ 
+.article-flex {
+    display: flex;
+    justify-content: center;
+    min-height: 450px;
+}
+ 
+.article-flex > div {
+    text-align: center;
+    max-width: 480px;
+    padding: 20px;
+}
+ 
+.article-flex p {
+    font-style: italic;
+    height: 40px;
+    padding: 0px 50px;
 }
