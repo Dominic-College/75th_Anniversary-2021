@@ -12,9 +12,11 @@ p {
     font-weight: 100;
     font-style: normal;
     font-size: 1.2em;
+	text-align: left;
 	text-align: justify;
-}
- 
+	
+	}
+
 .heading {
     font-family: trajan-pro-3, serif;
     font-weight: 600;
