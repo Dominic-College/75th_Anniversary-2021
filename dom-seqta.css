@@ -14,7 +14,7 @@ p {
 	font-size: 1.3em;
 }
 
-img {
+artical img {
 	box-shadow: 3px 3px 8px #000000;
 }
 
@@ -37,7 +37,7 @@ img {
 .dom-header {
 	position: fixed;
 	top: 0px;
-	background-image: url("file:///E|/OneDrive - Dominic College/UI Design/SEQTA_Template/Images/Ribben-1k.png");
+	background-image: url("Images/Ribben-1k.png");
 	width: 100%;
 	height: 110px;
 	z-index: 1;
@@ -394,3 +394,10 @@ h3 {
 	padding: 0px 50px;
 }
 
+.footer {
+	text-align: center;
+    font-family: skippy-sharp, sans-serif;
+	color: #a2863d;
+	text-shadow: 3px 3px 8px #000000;
+	margin-bottom: 50px;
+}
